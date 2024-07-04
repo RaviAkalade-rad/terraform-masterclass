@@ -24,6 +24,8 @@ terraform {
 - Understand about [Terraform Providers](https://www.terraform.io/docs/providers/index.html)
 - Configure AWS Credentials in the AWS CLI if not configured
 ```t
+# To check/configure the aws acount 
+ aws configure
 # Verify AWS Credentials
 cat $HOME/.aws/credentials
 ```
